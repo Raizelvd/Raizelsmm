@@ -4,7 +4,7 @@ from sms import SendSms
 from time import sleep
 from os import environ
 
-TOKEN = environ.get('TOKEN GİR')
+TOKEN = environ.get('5646541333:AAGFfP41udIAfov94_zWNL6iJLPlb1xkixk')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(f"Merhaba\!\nBirilerini rahatsız etmek istiyorsan doğru yere geldin\.\n*_/help_* yazarak komutları görebilirsin\.\nİyi eğlenceler\!\n\n[_Kaynak Kodu_](https://github.com/QWAXRE)\n[_TELEGRAM_](http://t.me/cocukburosu)", parse_mode='MarkdownV2')
